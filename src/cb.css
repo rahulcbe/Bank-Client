@@ -1,0 +1,77 @@
+/* General Background */
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+/* Heading Styling */
+.register-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.custom-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group Styling */
+.custom-form-group {
+    margin-bottom: 15px;
+}
+
+/* Label Styling */
+.custom-label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input Fields */
+.custom-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.custom-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button Styling */
+.custom-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+/* Success Message */
+.alert-success {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
